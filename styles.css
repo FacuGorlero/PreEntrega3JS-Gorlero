@@ -1,0 +1,46 @@
+#contenidotienda{
+    margin-top: 10%;
+    display: flex;
+   justify-content: space-around;
+   flex-wrap: wrap;
+   
+}
+
+.card{
+   max-width: 300px;
+   box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2);
+   border: black;
+   margin: auto;
+   text-align: center;
+}
+.card img{
+    height: 250px;
+    width: 300px;
+}
+
+.precio{
+    color: grey;
+    font-size: 22px;
+}
+
+.card button{
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white !important;
+    background-color: black;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px !important;
+}
+.card button:hover{
+opacity: 0.7;
+}
+
+#carrito{
+    position: absolute;
+    top: 0%;
+    left: 90%;
+    cursor: pointer;
+}
+
